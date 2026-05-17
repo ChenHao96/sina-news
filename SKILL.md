@@ -43,6 +43,10 @@ playwright install chromium
 
 ### 参数说明
 
+**roll** (`news_roll.py`):
+- `-l, --log`: 开启log打印
+- `-j, --josn`: 返回json结构数据
+
 **search** (`news_search.py`):
 - `<keyword>`: 搜索关键词（必填）
 - `-n, --number`: 页码，默认 1
