@@ -62,7 +62,6 @@ python references/news_repository.py 科技 -n 1 -s 10
 
 ## 数据输出格式
 
-ctime: 时间戳
 ```json
 {
   "title":        "新闻标题",
@@ -70,7 +69,7 @@ ctime: 时间戳
   "intro":        "新闻简介",
   "media_name":   "来源媒体",
   "text_content": "新闻正文",
-  "ctime":        1778917500
+  "ctime":        时间戳
 }
 ```
 
