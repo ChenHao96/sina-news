@@ -11,7 +11,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 async def search_news(browser, key, pageNum=1, size=50):
-    """搜索新闻链接自动翻页过滤旧新闻"""
+    """搜索新闻链接和正文"""
 
     if pageNum < 1:
         pageNum = 1
