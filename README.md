@@ -69,7 +69,7 @@ python references/news_repository.py 科技 -n 1 -s 10
   "intro":        "新闻简介",
   "media_name":   "来源媒体",
   "text_content": "新闻正文",
-  "ctime":        时间戳
+  "ctime":        `时间戳`
 }
 ```
 
