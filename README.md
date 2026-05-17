@@ -78,7 +78,7 @@ python references/news_repository.py 俄乌 -n 1 -s 10
 ```
 sina-news/
 ├── references/
-│   ├── commons.py          # 通用工具（数据库、分词）
+│   ├── commons.py          # 通用工具（正文摘取）
 │   ├── news_roll.py        # 新闻爬取脚本
 │   ├── news_search.py      # 新闻搜索脚本
 │   └── news_repository.py  # 本地数据查询脚本
