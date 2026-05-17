@@ -57,11 +57,12 @@ python references/news_repository.py <关键词> [-n 页码] [-s 每页条数]
 示例：
 
 ```bash
-python references/news_repository.py 俄乌 -n 1 -s 10
+python references/news_repository.py 科技 -n 1 -s 10
 ```
 
 ## 数据输出格式
 
+ctime: 时间戳
 ```json
 {
   "title":        "新闻标题",
